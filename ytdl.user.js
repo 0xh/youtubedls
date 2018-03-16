@@ -63,7 +63,7 @@ function YoutubeDownloader() {
         style = document.createElement('style'),
         head = document.getElementsByTagName('head')[0],
         // Update this to point to your own installation:
-        link = 'http://youtube.com/getvideo.php?videoid=' + vid + '&type=Download';
+        link = 'http://youtubedls.herokuapp.com/getvideo.php?videoid=' + vid + '&type=Download';
 
     if (wrapper && vid) {
         // Assemble the button:
